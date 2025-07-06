@@ -1,0 +1,13 @@
+{
+    "description": "06 - Meh - Cycle Profiles",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": { "mandatory": ["left_control", "left_option", "left_shift"] }
+            },
+            "to": [{ "shell_command": "/Users/bo/.config/karabiner/cycle_profile.sh" }],
+            "type": "basic"
+        }
+    ]
+}
