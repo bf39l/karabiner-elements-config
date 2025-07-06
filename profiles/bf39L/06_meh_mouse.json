@@ -1,0 +1,13 @@
+{
+    "description": "06 - Meh - Mouse",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["left_shift", "left_control", "left_option"] }
+            },
+            "to": [{ "pointing_button": "button3" }],
+            "type": "basic"
+        }
+    ]
+}
