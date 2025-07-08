@@ -1,3 +1,6 @@
+# path: $HOME/.config/karabiner/cycle_profile.sh
+# chmod +x cycle_profile.sh
+
 if test "$(/Library/Application\ Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli --show-current-profile-name)" == "bf39L"; then
     /Library/Application\ Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli --select-profile "colemak" &&
         osascript -e 'display notification "colemak" with title "Karabiner" subtitle "Profile Switch" sound name "Purr"'
