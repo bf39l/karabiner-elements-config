@@ -1,5 +1,5 @@
 {
-    "description": "07 - Remap keys to use Colemak keyboard layout",
+    "description": "08 - Remap keys to use Colemak keyboard layout",
     "manipulators": [
         {
             "from": {
