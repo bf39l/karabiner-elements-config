@@ -1,9 +1,9 @@
 {
-    "description": "01 - Map caps_lock to MEH when hold",
+    "description": "01 - Map escape to MEH when hold",
     "manipulators": [
         {
             "from": {
-                "key_code": "caps_lock",
+                "key_code": "escape",
                 "modifiers": { "optional": ["any"] }
             },
             "parameters": {
@@ -13,7 +13,7 @@
             "to_if_alone": [
                 {
                     "hold_down_milliseconds": 100,
-                    "key_code": "caps_lock"
+                    "key_code": "escape"
                 }
             ],
             "to_if_held_down": [
