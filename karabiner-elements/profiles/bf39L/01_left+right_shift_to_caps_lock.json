@@ -1,0 +1,16 @@
+{
+    "description": "01 - left+right shift - caps_lock",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": {
+                    "mandatory": ["right_shift"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to": [{ "key_code": "caps_lock" }],
+            "type": "basic"
+        }
+    ]
+}
